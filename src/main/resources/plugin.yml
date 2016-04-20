@@ -1,0 +1,9 @@
+name: CustomCommand
+main: com.koens.customcommand.CustomCommand
+version: 1.0.1
+commands:
+  basic:
+    description: Base command for customcommand.
+    usage: /cc create:remove:list
+    permission: customcommand.base
+    permission-message: You don't have permission: customcommand.base
